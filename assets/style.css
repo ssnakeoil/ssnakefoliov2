@@ -11,31 +11,41 @@ body {
 }
 
 h1 {
-  font-family: "Cinzel", serif;
+  font-size: xxx-large;
+  float: left;
+    margin-left: 80px;
+    margin-right: -500px;
+    margin-top: -90px;
 }
 
-#container {
-  margin: 25px auto;
+div {
+    margin: auto;
+}
+
+.container {
+  margin: 100px auto;
   background-color: #bac57a;
-  height: 450px;
-  width: 700px;
+  height: 544px;
+  width: 944px;
   border-radius: 15px;
   position: relative;
-  overflow: auto;
+  overflow: -moz-hidden-unscrollable;
 }
 
+.resume {
+    margin: 0px;
+}
+
+#roseDeco {
+    margin-top: -120px;
+    margin-left: -20px;
+}
 div.profileButton a {
-  /* background-color: #8E4227;
-  color: #BAC57A;
-  border: none;
   border-radius: 10px;
-  padding: 5px;
   margin-bottom: -100px;
   width: 150px;
   height: 300px;
-  text-align: center;
-  font-size: medium;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  padding: 5px;
   font-family: "Cinzel", serif;
   font-size:large;
   color: #bac57a;
@@ -49,6 +59,7 @@ div.profileButton a {
 }
 
 footer {
+  margin-left: -8px;
   position: fixed;
   bottom: 0;
   width: 100%;
