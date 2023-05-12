@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Cinzel:wght@600&display=swap");
+
+* {
+  font-family: "Cardo", serif;
+}
+
+body {
+  font-size: medium;
+  color: #5f3612;
+  background-color: #869342;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+#container {
+  margin: 25px auto;
+  background-color: #bac57a;
+  height: 450px;
+  width: 700px;
+  border-radius: 15px;
+  position: relative;
+  overflow: auto;
+}
+
+div.profileButton a {
+  /* background-color: #8E4227;
+  color: #BAC57A;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: -100px;
+  width: 150px;
+  height: 300px;
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Cinzel", serif;
+  font-size:large;
+  color: #bac57a;
+  background-color: #8E4227;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+  height: 100px;
+  background-color: #bac57a;
+}
+
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a:before,
+div.topBotomBordersOut a:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #bac57a;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before {
+  top: 0px;
+  transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after {
+  bottom: 0px;
+  transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before,
+div.topBotomBordersOut a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/* 8E4227 */
