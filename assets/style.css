@@ -40,22 +40,45 @@ div {
     margin-top: -120px;
     margin-left: -20px;
 }
-div.profileButton a {
-  border-radius: 10px;
-  margin-bottom: -100px;
-  width: 150px;
-  height: 300px;
-  padding: 5px;
-  font-family: "Cinzel", serif;
-  font-size:large;
-  color: #bac57a;
-  background-color: #8E4227;
-  text-decoration: none;
-  margin: 0px 10px;
-  padding: 10px 10px;
-  position: relative;
-  z-index: 0;
-  cursor: pointer;
+
+#about {
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img {
+    margin: 5px;
+}
+
+a {
+    opacity: 0.5;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover {
+    opacity: 1;
+    transition: ease-in-out 0.2s;
+}
+
+.customButton, .buttonLink {
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Cinzel", serif;
+    font-size:large;
+    color: #bac57a;
+    background-color: #8E4227;
+    text-decoration: none;
+    width: 200px;
+    height: 500px;
+    margin-top: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+.customButton:hover {
+    margin-top: -50px;
+    transition: ease-in-out 0.5s;
 }
 
 footer {
@@ -69,33 +92,3 @@ footer {
   background-color: #bac57a;
 }
 
-/* Top and Bottom borders go out */
-div.topBotomBordersOut a:before,
-div.topBotomBordersOut a:after {
-  position: absolute;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  background: #bac57a;
-  content: "";
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-div.topBotomBordersOut a:before {
-  top: 0px;
-  transform: translateY(10px);
-}
-
-div.topBotomBordersOut a:after {
-  bottom: 0px;
-  transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a:hover:before,
-div.topBotomBordersOut a:hover:after {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-/* 8E4227 */
